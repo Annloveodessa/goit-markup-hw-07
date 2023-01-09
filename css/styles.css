@@ -151,10 +151,18 @@ body {
 
 /*------------HERO-------------*/
 
-.hero {
+.hero-bg {
 	background-color: #2e2f42;
 	padding: 188px 0;
 	text-align: center;
+	background-image: linear-gradient(
+		rgba(46, 47, 66, 0.7),
+		rgba(46, 47, 66, 0.7)
+	),
+	 url(../img/fon/people.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 .solution {
@@ -317,11 +325,80 @@ body {
 	
 	font-size: 16px;
 	line-height: 1.5;
-
-
 	color: #434455;
 }
 
+.socialmedia {
+	display: flex;
+	justify-content: center;
+	gap: 24px;
+	margin-top: 8px;
+	list-style: none;
+}
+
+.socialmedia-items {
+	width: 40px; height: 40px;
+}
+
+.socialmedial-link {
+	width: 100%;
+	height: 100%;
+	background-color: var(--primary-brand);
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.socialmedial-link:hover,
+.socialmedial-link:focus{
+	background-color: #31D0AA;
+}
+
+.socialmesia-icon{
+	fill: #FFFFFF;
+}
+
+
+/*---------CUSTOMERS-----------*/
+.customers-link{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 168px;
+	height: 88px;
+	border: 1px solid #8E8F99;
+	border-radius: 4px;
+	padding: 16px 32px;
+	fill: #8e8f99;
+	margin-bottom: 120px;
+	fill: #8e8f99;
+	
+
+}
+/*.customers-icon{
+	fill: currentColor;
+}*/
+.customers-link:hover {
+	border-color: #404BBF;
+	fill: #404BBF;
+
+}
+
+
+.customers-list {
+	display: flex;
+	justify-content: space-between;
+}
+.section-name{
+	
+		font-size: 36px;
+		line-height: 40px;
+		text-align: center;
+		letter-spacing: 0.02em;
+		margin-bottom: 72px;
+		margin-top: 130px;
+		color: #2E2F42;
+}
 /*------FOOTER---------*/
 
 .footer {
