@@ -357,7 +357,7 @@ body {
 .socialmedial-link {
 	width: 100%;
 	height: 100%;
-	background-color: var(--primary-brand);
+	background-color: #4D5AE5;
 	border-radius: 50%;
 	display: flex;
 	align-items: center;
@@ -365,7 +365,7 @@ body {
 }
 .socialmedial-link:hover,
 .socialmedial-link:focus{
-	background-color: #31D0AA;
+	background-color: #404BBF;
 }
 
 .socialmesia-icon{
@@ -387,11 +387,9 @@ body {
 	fill: #8e8f99;	
 }
 
-/*.customers-icon{
-	fill: currentColor;
-}*/
 
-.customers-link:hover {
+.customers-link:hover,
+.customers-link:focus {
 	border-color: #404BBF;
 	fill: #404BBF;
 
@@ -442,13 +440,11 @@ body {
 	font-size: 18px;
 	line-height: 1.16;
 
-	/* identical to box height */
 	display: flex;
 	align-items: center;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 
-	/* CLOUD */
 	color: #f4f4fd;
 }
 .end-word {
@@ -457,6 +453,50 @@ body {
 	color: #e7e9fc;
     width: 264px;
 }
+.soc-media-items {
+	width: 40px; height: 40px;
+}
+.soc-medial-link {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color:rgba(255, 255, 255, 0.1);
+	
+
+}
+.soc-medial-link:hover,
+.soc-medial-link:focus {
+	background-color: #31d0aa;
+
+}
+
+.footer-soc {
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 24px;
+		letter-spacing: 0.02em;
+	
+		color: #FFFFFF;
+		text-align: center;
+		margin-bottom: 16px;
+		
+}
+
+.footer-soc-list {
+	display: flex;
+	justify-content: center;
+	gap: 16px;
+	
+}
+.footer-socmedia {
+	
+
+
+}
+
 
 /*-------HEADER PORTFOLIO*/
 .logo-studio {
@@ -503,8 +543,6 @@ body {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
-
-	/* identical to box height, or 150% */
 	letter-spacing: 0.02em;
 
 	/* SLATE */
@@ -578,10 +616,6 @@ border-right: 1px solid #E7E9FC;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
-
-	/* identical to box height, or 150% */
 	letter-spacing: 0.02em;
-
-	/* SLATE */
 	color: #434455;
 }
