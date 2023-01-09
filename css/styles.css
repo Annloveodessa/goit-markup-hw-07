@@ -200,6 +200,20 @@ body {
 	display: flex;
 	gap: 24px;
 }
+.rectangle {
+	background-color:#F4F4FD;
+	width: 264px; 
+	height: 112px;
+	padding: 24px 100px;
+	border-radius: 4px;
+	margin-bottom: 8px;
+
+}
+.rectangle .icon{
+	display: block;
+	width: 64px; 
+	height: 64px;
+}
 .hero-strategy {
 }
 
@@ -369,20 +383,20 @@ body {
 	border: 1px solid #8E8F99;
 	border-radius: 4px;
 	padding: 16px 32px;
-	fill: #8e8f99;
 	margin-bottom: 120px;
-	fill: #8e8f99;
-	
-
+	fill: #8e8f99;	
 }
+
 /*.customers-icon{
 	fill: currentColor;
 }*/
+
 .customers-link:hover {
 	border-color: #404BBF;
 	fill: #404BBF;
 
 }
+
 
 
 .customers-list {
