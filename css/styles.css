@@ -257,6 +257,7 @@ body {
 .main-button:hover,
 .main-button:focus {
 	background-color: #404bbf;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 /*-------What are we doing--------*/
@@ -492,11 +493,19 @@ body {
 	
 }
 .footer-socmedia {
+	margin-left: 120px;
+	padding-bottom: 20px;
 	
-
-
 }
 
+.footer .container {
+	display: flex;
+	align-items: center;
+	
+}
+.footlog {
+	max-width: 264px;
+}
 
 /*-------HEADER PORTFOLIO*/
 .logo-studio {
@@ -509,10 +518,9 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 
-	/* identical to box height, or 150% */
 	letter-spacing: 0.02em;
 
-	/* NAVY BLUE */
+
 	color: #2e2f42;
 }
 .contact-inf {
@@ -522,11 +530,7 @@ body {
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.5;
-
-	/* identical to box height, or 150% */
 	letter-spacing: 0.02em;
-
-	/* NAVY BLUE */
 	color: #2e2f42;
 }
 
@@ -545,7 +549,7 @@ body {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 
-	/* SLATE */
+	
 	color: #434455;
 }
 
@@ -570,6 +574,7 @@ body {
 
 	background-color: #4d5ae5;
 	color: #f4f4fd;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .button-list-portfolio {
     display: flex;
@@ -610,6 +615,7 @@ border-right: 1px solid #E7E9FC;
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
+	
 }
 
 .pre-menu-title {
@@ -618,4 +624,9 @@ border-right: 1px solid #E7E9FC;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: #434455;
+}
+.shade:hover,
+.shade:focus {
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
 }
