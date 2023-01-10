@@ -481,14 +481,12 @@ body {
 		letter-spacing: 0.02em;
 	
 		color: #FFFFFF;
-		text-align: center;
 		margin-bottom: 16px;
 		
 }
 
 .footer-soc-list {
 	display: flex;
-	justify-content: center;
 	gap: 16px;
 	
 }
@@ -500,7 +498,7 @@ body {
 
 .footer .container {
 	display: flex;
-	align-items: center;
+	
 	
 }
 .footlog {
