@@ -85,7 +85,7 @@ body {
 	line-height: 1.33;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	padding: 40px 0;
+	padding: 24px 0;
 	margin-right: 77px;
 }
 
@@ -413,7 +413,6 @@ body {
 		text-align: center;
 		letter-spacing: 0.02em;
 		margin-bottom: 72px;
-		margin-top: 130px;
 		color: #2E2F42;
 }
 /*------FOOTER---------*/
