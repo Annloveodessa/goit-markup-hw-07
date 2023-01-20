@@ -518,14 +518,7 @@ body {
 	display: flex;
 	position: relative;
 }
-.footer-modal-form-input-icon {
-	top: 50;
-	left: 16px;
-	transform: translate(0, -50%);
-	width: 36px;
-	height: 24px;
 
-}
 
 .button-subscribe {
 	position: relative;
