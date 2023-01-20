@@ -537,6 +537,7 @@ body {
 	margin-left: 24px;
 	
 }
+
 .button-subscribe:focus {
 	background-color:#404BBF;
 	outline: none;
@@ -901,10 +902,13 @@ body {
 	background-image: url(/img/mark/checkmark.svg);
 	background-repeat: no-repeat;
 	background-position: center;
+	color: white;
+	
 
 }
 .modal-form-check:focus+.modal-form-check-desc::before {
 	border-color: #404BBF;
+	color: white;
 }
 .modal-form-check-desc {
 	display: flex;
