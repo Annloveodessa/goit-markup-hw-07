@@ -1,6 +1,6 @@
 
 
-/*---------------------------
+
 :root {
 	--primary-brand: #4d5ae5;
 	--dark: #2e2f42;
@@ -130,6 +130,15 @@ body {
 	background-color: white;
 	z-index: 1000;
 	box-shadow: 0 0 0 100vmax rgba(0 0 0 0.5);
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+
+}
+.mobile-menu.is-open {
+	opacity: 1;
+	visibility: visible;
+	pointer-events: auto;
 
 }
 .list {
