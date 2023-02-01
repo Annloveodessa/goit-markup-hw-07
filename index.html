@@ -1,197 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
-			rel="stylesheet"
-		/>
-		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
-		<link rel="stylesheet" href="./css/styles.css" />
-		<link rel="stylesheet" href="./css/mobile.css" />
-		<link rel="stylesheet" href="./css/tablet.css" />
-		<link rel="stylesheet" href="./css/desktop.css" />
-	</head>
 
-	<body>
-		<header class="header">
-			<div class="container page-header">
-				<nav class="header-navigation">
-					<a class="logo-main link" href="./index.html"
-						><span class="first-logo">WEB</span><span class="studio-logo">STUDIO</span></a
-					>
-<!----------------------------------------NAVIGATION ACTIVE------------------------->
-					<ul class="header-list list">
-						<li class="header-item">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Document</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+		rel="stylesheet" />
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+	<link rel="stylesheet" href="./css/styles.css" />
+	<link rel="stylesheet" href="./css/mobile.css" />
+	<link rel="stylesheet" href="./css/tablet.css" />
+	<link rel="stylesheet" href="./css/desktop.css" />
+</head>
+
+<body>
+	<header class="header">
+		<div class="container page-header">
+			<nav class="header-navigation">
+				<a class="logo-main link" href="./index.html"><span class="first-logo">WEB</span><span
+						class="studio-logo">STUDIO</span></a>
+				<!----------------------------------------NAVIGATION ACTIVE------------------------->
+				<ul class="header-list list">
+					<li class="header-item">
 						<a class="header-link current link" href="./index.html">Studio</a>
 					</li>
-						<li class="header-item">
-							<a class="header-link link" href="./portfolio.html">Portfolio</a>
-						</li>
-						<li class="header-item">
-							<a class="header-link link" href="">Contacts</a>
-						</li>
-					</ul>
-				</nav>
-				<button type="button" class="mobile-menu-open" data-menu-open>
-					<svg class="mobile-menu-open_icon" width="32" height="22">
-						<use href="./img/icons.svg.svg#menu_btn"></use>
-					</svg>
-				</button>
-				
-				
-
-				<ul class="header-contact-info list">
-					<li class="header-email"
-						><a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li
-					>
-					<li class="header-tel"><a class="contact-link link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+					<li class="header-item">
+						<a class="header-link link" href="./portfolio.html">Portfolio</a>
+					</li>
+					<li class="header-item">
+						<a class="header-link link" href="">Contacts</a>
+					</li>
 				</ul>
-			</div>
-			<!---------------------------------MOBILE MODAL NAVIGATION-->
-			<div class="mobile-menu" data-menu>
-				<div class="container mobile-menu_container">
+
+			</nav>
+
+
+
+			<ul class="header-contact-info list">
+				<li class="header-email"><a class="contact-link link"
+						href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+				<li class="header-tel"><a class="contact-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+				</li>
+			</ul>
+			<button type="button" class="mobile-menu-open" data-menu-open>
+				<svg class="mobile-menu-open_icon" width="32" height="22">
+					<use href="./img/icons.svg.svg#menu_btn"></use>
+				</svg>
+			</button>
+		</div>
+		<!---------------------------------MOBILE MODAL NAVIGATION-->
+		<div class="mobile-menu" data-menu>
+			<div class="container mobile-menu_container">
 				<button class="mobile-menu_close-btn" data-menu-close>
 					<svg class="mobile-menu_close-icon" width="24" height="24">
 						<use href="./img/icons.svg.svg#icon-close-mob-menu"></use>
 					</svg>
 				</button>
 				<ul class="header-list-mobile list">
-						<li class="header-item-mobile">
+					<li class="header-item-mobile">
 						<a class="header-link-mobile current link" href="./index.html">Studio</a>
 					</li>
-						<li class="header-item-mobile">
-							<a class="header-link-mobile link" href="./portfolio.html">Portfolio</a>
-						</li>
-						<li class="header-item-mobile">
-							<a class="header-link-mobile link" href="">Contacts</a>
-						</li>
-					</ul>
-				
+					<li class="header-item-mobile">
+						<a class="header-link-mobile link" href="./portfolio.html">Portfolio</a>
+					</li>
+					<li class="header-item-mobile">
+						<a class="header-link-mobile link" href="">Contacts</a>
+					</li>
+				</ul>
+
 				<ul class="header-contact-info-mobile list">
 					<li class="header-tel-mobile">
 						<a class="contact-link-mobile link" href="tel:+110001111111">+11 (000) 111-11-11</a>
 					</li>
 					<li class="header-email-mobile">
 						<a class="contact-email-mobile link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-						</li>
-					
+					</li>
+
 				</ul>
-				
+
 				<ul class="menu-soc-list-mobile list">
 					<li class="soc-media-items-mobile">
-										<a href="" class="soc-medial-link-mobile link">
-											<svg class="soc-icon-mobile" width="24" height="24">
-												<use href="./img/icons.svg.svg#icon-instagramnew"></use>
-											</svg>
-										</a>
-									</li>
-									<li class="soc-media-items-mobile">
-										<a href="" class="soc-medial-link-mobile link">
-											<svg class="soc-icon-mobile" width="24" height="24">
-												<use href="./img/icons.svg.svg#icon-twitternew"></use>
-											</svg>
-										</a>
-									</li>
-									<li class="soc-media-items-mobile">
-										<a href="" class="soc-medial-link-mobile link">
-											<svg class="soc-icon-mobile" width="24" height="24">
-												<use href="./img/icons.svg.svg#icon-facebooknew"></use>
-											</svg>
-										</a>
-									</li>
-									<li class="soc-media-items-mobile">
-										<a href="" class="soc-medial-link-mobile link">
-											<svg class="soc-icon-mobile" width="24" height="24">
-												<use href="./img/icons.svg.svg#icon-linkedinnew"></use>
-											</svg>
-										</a>
-									</li>
+						<a href="" class="soc-medial-link-mobile link">
+							<svg class="soc-icon-mobile" width="24" height="24">
+								<use href="./img/icons.svg.svg#icon-instagramnew"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="soc-media-items-mobile">
+						<a href="" class="soc-medial-link-mobile link">
+							<svg class="soc-icon-mobile" width="24" height="24">
+								<use href="./img/icons.svg.svg#icon-twitternew"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="soc-media-items-mobile">
+						<a href="" class="soc-medial-link-mobile link">
+							<svg class="soc-icon-mobile" width="24" height="24">
+								<use href="./img/icons.svg.svg#icon-facebooknew"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="soc-media-items-mobile">
+						<a href="" class="soc-medial-link-mobile link">
+							<svg class="soc-icon-mobile" width="24" height="24">
+								<use href="./img/icons.svg.svg#icon-linkedinnew"></use>
+							</svg>
+						</a>
+					</li>
 
 				</ul>
-			
-				</div>
 
-		
 			</div>
-			<!---------------------------------MOBILE MODAL NAVIGATION-->
-			
 
-		</header>
 
-		<main>
-			<section class="hero-bg">
-				<div class="container">
-					<h1 class="solution">Effective Solutions For Your Business</h1>
-					<button class="main-button" type="button" data-modal-open>Order Service</button>
-				</div>
-			</section>
-			<section class="section">
-				<div class="container">
-					<h2 class="visually-hidden">business goal</h2>
-					<ul class="list fututes-list">
-						<li class="hero-strategy list">
-							<div class="rectangle">
-								<svg class="icon" width="64" height="64">
+		</div>
+		<!---------------------------------MOBILE MODAL NAVIGATION-->
+
+
+	</header>
+
+	<main>
+		<section class="hero-bg">
+			<div class="container">
+				<h1 class="solution">Effective Solutions For Your Business</h1>
+				<button class="main-button" type="button" data-modal-open>Order Service</button>
+			</div>
+		</section>
+		<section class="section">
+			<div class="container">
+				<h2 class="visually-hidden">business goal</h2>
+				<ul class="list fututes-list">
+					<li class="hero-strategy list">
+						<div class="rectangle">
+							<svg class="icon" width="64" height="64">
 								<use href="./img/icons.svg.svg#icon-antenna-1">
-		
+
 								</use>
-								</svg>
-							</div>
-							<h3 class="hero-title">Strategy</h3>
-							<p class="hero-pre-title">
-								Our goal is to identify the business problem to walk away with the perfect and creative solution.
-							</p>
-						</li>
-						<li class="hero-punctuality list">
-							<div class="rectangle">
-								<svg class="icon" width="64" height="64">
+							</svg>
+						</div>
+						<h3 class="hero-title">Strategy</h3>
+						<p class="hero-pre-title">
+							Our goal is to identify the business problem to walk away with the perfect and creative
+							solution.
+						</p>
+					</li>
+					<li class="hero-punctuality list">
+						<div class="rectangle">
+							<svg class="icon" width="64" height="64">
 								<use href="./img/icons.svg.svg#icon-clock-1">
-		
+
 								</use>
-								</svg>
-							</div>
-							<h3 class="hero-title">Punctuality</h3>
-							<p class="hero-pre-title">
-								Bring the key message to the brand's audience for the best price within the shortest possible time.
-							</p>
-						</li>
-						<li class="hero-diligence list">
-							<div class="rectangle">
-								<svg class="icon" width="64" height="64">
+							</svg>
+						</div>
+						<h3 class="hero-title">Punctuality</h3>
+						<p class="hero-pre-title">
+							Bring the key message to the brand's audience for the best price within the shortest
+							possible time.
+						</p>
+					</li>
+					<li class="hero-diligence list">
+						<div class="rectangle">
+							<svg class="icon" width="64" height="64">
 								<use href="./img/icons.svg.svg#icon-diagram-1">
-		
+
 								</use>
-								</svg>
-							</div>
-							<h3 class="hero-title">Diligence</h3>
-							<p class="hero-pre-title">
-								Research and confirm brands that present the strongest digital growth opportunities and minimize risk.
-							</p>
-						</li>
-						<li class="hero-technologies list">
-							<div class="rectangle">
-								<svg class="icon" width="64" height="64">
+							</svg>
+						</div>
+						<h3 class="hero-title">Diligence</h3>
+						<p class="hero-pre-title">
+							Research and confirm brands that present the strongest digital growth opportunities and
+							minimize risk.
+						</p>
+					</li>
+					<li class="hero-technologies list">
+						<div class="rectangle">
+							<svg class="icon" width="64" height="64">
 								<use href="./img/icons.svg.svg#icon-astronaut-1">
-		
+
 								</use>
-								</svg>
-							</div>
-							<h3 class="hero-title">Technologies</h3>
-							<p class="hero-pre-title">
-								Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.
-							</p>
-						</li>
-					</ul>
-				</div>
-			</section>
-			 
-<!-----------
+							</svg>
+						</div>
+						<h3 class="hero-title">Technologies</h3>
+						<p class="hero-pre-title">
+							Design practice focused on digital experiences. We bring forth a deep passion for
+							problem-solving.
+						</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<!-----------
 			<section class="our-work section">
 				<div class="container">
 					<h2 class="explination-list">What are we doing</h2>
@@ -210,8 +213,8 @@
 			</section>
 			--------------------->
 
-<!---------------------TEAM------------------->
-<!---------
+		<!---------------------TEAM------------------->
+		<!---------
 			<section class="team-section section">
 				<div class="container">
 					<h2 class="team-title">Our Team</h2>
@@ -373,7 +376,7 @@
 				</div>
 			</section>
 			----------------------->
-			<!--------
+		<!--------
 			<section class="section-customers">
 				<div class="container">
 					<h2 class="section-name">Customers</h2>
@@ -495,6 +498,7 @@
 	</div>
 
 		</footer>
+		------>
 
 		<div class="backdrop is-hidden" data-modal>
 			<div class="modal">
@@ -580,10 +584,11 @@
 			</div>
 
 		</div>
-		--->
+	
 		<script src="./js/modal.js"></script>
-		
-		-->
+
+	
 		<script src="./js/mobile-menu.js"></script>
-	</body>
+</body>
+
 </html>

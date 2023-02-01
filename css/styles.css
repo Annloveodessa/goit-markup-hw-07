@@ -67,10 +67,12 @@ body {
 	width: 100%;
 	padding-left: 15px;
 	padding-right: 15px;	
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
-
+/*-----HEADER------*/
 
 .header-list {
 	display: none;
@@ -83,9 +85,33 @@ body {
 
 
 .header {
-			padding-top: 24px;
-			padding-bottom: 24px;
+	padding: 24px 0;
+
 }
+.first-logo {
+	color: #4d5ae5;
+	
+}
+
+.studio-logo {
+	color: #2e2f42;
+	
+}
+
+ .logo-main {
+	font-family: Raleway;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.33;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	margin-right: 77px;
+	display: block;
+}
+
+
+
+/*-------MOBILE-MENU------------------*/
 .mobile-menu-open {
 	background-color: transparent;
 	border: none;
@@ -93,30 +119,14 @@ body {
 	line-height: 0;
 	width: 32px;
 	height: 22px;
-
+	
 }
 .page-header {
 	display: flex;
 	justify-content: space-between;
 }
-.first-logo {
-	color: #4d5ae5;
-	padding-top: 40px;
-}
 
-.studio-logo {
-	color: #2e2f42;
-	padding-top: 40px;
-}
-.logo-main {
-	font-family: Raleway;
-	font-weight: 800;
-	font-size: 18px;
-	line-height: 1.33;
-	letter-spacing: 0.03em;
-	text-transform: uppercase;
-	padding: 24px 0;
-	margin-right: 77px;}
+
 
 .mobile-menu {
 	position: fixed;
@@ -402,7 +412,7 @@ font-family: 'Roboto';
 }------*/
 .hero-bg {
 	background-color: #2e2f42;
-	padding: 188px 0;
+
 	text-align: center;
 	/*background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../img/fon/people.jpg);*/
 	background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../img/sqoosh/Dark-bg-mob.jpg);
@@ -415,7 +425,7 @@ font-family: 'Roboto';
 	margin-right: auto;
 	padding: 112px 0;
 	
-	box-sizing: border-box;
+	
 	
 }
 
@@ -436,7 +446,7 @@ screen and (min-resolution: 2dppx) {
 		line-height: 1.07;
 		letter-spacing: 0.02em;
 		
-		max-width: 320px;
+		width: 100%;
 		margin: 0 auto;
 		margin-bottom: 72px;
 
