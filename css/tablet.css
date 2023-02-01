@@ -4,6 +4,10 @@
 
     }
 
+}@media screen and (min-width:768px) {
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;}
 }
 
 
@@ -195,3 +199,30 @@
        }
 
    }
+/*---------MODAL--------*/
+
+@media screen and (min-width:768px) {
+    .modal {
+        width: 408px;
+        height: 586px;
+    }
+
+}
+/*-----------FUTURES-------*/
+
+@media screen and (min-width:768px){
+    .fututes-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 72px 24px;
+        
+    }
+    .hero-strategy {
+        /* flex-basis: calc((100% -24px) / 2 ); */
+        max-width: 356px;
+        
+}
+.hero-title {
+    text-align: left;
+}
+}

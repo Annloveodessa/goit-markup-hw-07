@@ -45,6 +45,8 @@ body {
 	letter-spacing: 0.02em;
 }
 .section {
+	padding-top: 96px;
+	padding-bottom: 96px;
 	/*--------padding: 120px 0;------*/
 }
 
@@ -453,9 +455,8 @@ screen and (min-resolution: 2dppx) {
 	color: #ffffff;
 	
 }
-.rectangle {
-	visibility: hidden;
-}
+
+
 
 .visually-hidden {
 	position: absolute;
@@ -470,7 +471,9 @@ screen and (min-resolution: 2dppx) {
 	overflow: hidden;
 }
 .fututes-list {
-	
+	display: flex;
+	flex-direction: column;
+	gap: 72px;
 }
 
 .rectangle {
@@ -480,13 +483,14 @@ screen and (min-resolution: 2dppx) {
 	padding: 24px 100px;
 	border-radius: 4px;
 	margin-bottom: 8px;
+
 }
 
 .rectangle .icon {
 	display: block;
 	width: 64px;
 	height: 64px;
-	visibility: hidden;
+	
 }
 
 
@@ -588,11 +592,8 @@ screen and (min-resolution: 2dppx) {
 -------------------------------------------*/
 
 /*----------FUTURES----------*/
-/*----------------------------------------
-.fututes-list {
-	display: flex;
-	gap: 24px;
-}
+
+
 .rectangle {
 	background-color: #f4f4fd;
 	width: 264px;
@@ -606,7 +607,7 @@ screen and (min-resolution: 2dppx) {
 	width: 64px;
 	height: 64px;
 }
-.hero-strategy {
+/* .hero-strategy {
 }
 
 .hero-title {
@@ -650,9 +651,9 @@ screen and (min-resolution: 2dppx) {
 .main-button:hover,
 .main-button:focus {
 	background-color: #404bbf;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
----------------------------*/
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);} */
+
+
 
 /*-------What are we doing--------*/
 /*------------------------------
@@ -1112,7 +1113,7 @@ screen and (min-resolution: 2dppx) {
 }
 -----------------------------------------------------------------------------*/
 /*----------------Modal window----------------------*/
-/*----------------------------------------------------------------
+
 .backdrop {
 	position: fixed;
 	top: 0;
@@ -1126,8 +1127,8 @@ screen and (min-resolution: 2dppx) {
 	visibility: visible;
 }
 .modal {
-	width: 408px;
-	height: 576px;
+	width: 100%;
+	height: 90%;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -1140,6 +1141,10 @@ screen and (min-resolution: 2dppx) {
 	padding-bottom: 24px;
 	padding-right: 24px;
 	padding-left: 24px;
+}
+.modal-link {
+	color: #4D5AE5;
+
 }
 .backdrop.is-hidden {
 	opacity: 0;
@@ -1333,5 +1338,5 @@ screen and (min-resolution: 2dppx) {
 	color:#FFFFFF; 
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-------------------------------------------------------------------------------------*/
+
 
