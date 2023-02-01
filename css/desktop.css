@@ -5,3 +5,29 @@
     }
 
 }
+
+
+
+@media screen and (min-width:1200px) {
+    .container {
+        width: 1158px;
+
+    }}
+
+
+
+    /*--------------------HERO---------------------*/
+
+        .hero >.container {
+            width: 1200px;
+        }
+        .hero-bg {background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../img/sqoosh/dark-bg-desk.jpg);
+        
+                }
+        @media screen and (min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+        .hero-bg {
+         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../img/sqoosh/Dark-bg-desk-2.jpg);
+        }
+        }
