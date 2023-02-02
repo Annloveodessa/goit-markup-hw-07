@@ -53,8 +53,7 @@
         }
         
                 /*---------MODAL--------*/
-        
-            @media screen and (min-width:1200px) {
+  @media screen and (min-width:1200px) {
                     .modal {
                         height: 584px;
 
@@ -64,10 +63,13 @@
                 }
 
 
-                @media screen and (min-width:1200px) {
-                        .rectangle {
-                                display: block;
-                            }
+ @media screen and (min-width:1200px) {
+    .rectangle {
+    display: block;
+     }
+ .our-work {
+ display: block;
+ }
                     
                 }
        
@@ -85,3 +87,34 @@
                 
                     
           }}
+
+          /*--------------OUR TEAM-----------------*/
+
+                  @media screen and (min-width:1200px) {
+
+                  .team-list {
+                      display: flex;
+                      flex-wrap: wrap;
+                      gap: 24px;
+
+                  }
+        
+                  .team-text-wrap {
+                      padding: 32px 0;
+                      text-align: center;
+                      background: #ffffff;
+                  }}
+
+/*------------CUSTOMERS-------------*/
+                          /* .customers-link {
+                              display: flex;
+                              align-items: center;
+                              justify-content: center;
+                              width: 168px;
+                              height: 88px;
+                              border: 1px solid currentColor;
+                              border-radius: 4px;
+            
+                              color: #8e8f99;
+                              transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                          } */

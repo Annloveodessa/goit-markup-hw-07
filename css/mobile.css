@@ -12,6 +12,9 @@
     display: none;
     
 }
+.our-work {
+    display: none;
+}
 }
 
 
@@ -23,6 +26,17 @@
     .modal {
         width: 392px;
         height: 586px;
+    }
+    
+}
+
+/*-------------TEAM-------------------*/
+
+@media screen and (min-width:320px) and (max-width:1199px){
+    .team-list {
+        
+        
+        /* gap: 24px; */
     }
     
 }

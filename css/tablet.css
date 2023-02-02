@@ -226,3 +226,15 @@
     text-align: left;
 }
 }
+
+
+/*--------------TEAM--------------*/
+@media screen and (min-width:768px) {
+    .team-list {
+       display: flex;
+
+
+    }}
+
+
+    

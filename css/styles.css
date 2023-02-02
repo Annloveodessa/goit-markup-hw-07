@@ -607,6 +607,11 @@ screen and (min-resolution: 2dppx) {
 	width: 64px;
 	height: 64px;
 }
+
+/* --------------OUR WORK------------- */
+/* .our-work section {
+	display: none;
+} */
 /* .hero-strategy {
 }
 
@@ -656,7 +661,9 @@ screen and (min-resolution: 2dppx) {
 
 
 /*-------What are we doing--------*/
-/*------------------------------
+
+
+
 .our-work {
 	padding-top: 0;
 }
@@ -677,17 +684,20 @@ screen and (min-resolution: 2dppx) {
 	color: #2e2f42;
 	margin-bottom: 72px;
 }
-
+/*--------------TEAM---------------------*/
 .team-our-title {
 }
+
 
 .team-section {
 	background: #f4f4fd;
 }
 .team-list {
-	display: flex;
+	/* display: flex; */
 	flex-wrap: wrap;
 	gap: 24px;
+	
+	
 }
 .team-text-wrap {
 	padding: 32px 0;
@@ -699,9 +709,11 @@ screen and (min-resolution: 2dppx) {
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 	border-radius: 0px 0px 4px 4px;
 	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	margin-bottom: 72px;
+	
 }
-----------------------------*/
-/*-----------------------------
+
+
 .team-title {
 	
 
@@ -765,22 +777,35 @@ screen and (min-resolution: 2dppx) {
 .socialmesia-icon {
 	fill: #ffffff;
 }
----------------------------*/
+
 
 /*---------CUSTOMERS-----------*/
-/*------------------------
+
 .customers-link {
 	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 168px;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 190px;
 	height: 88px;
 	border: 1px solid currentColor;
 	border-radius: 4px;
-
 	color: #8e8f99;
 	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	gap: 16px;
 }
+
+/* .customers-items{
+	display: flex;
+	
+		flex-wrap: wrap;
+		flex-direction: column;
+
+} */
+/* @media screen and (max-width: 767px) {
+.customers-items {
+	width: 190px;
+}} */
+	    
 .section-customers {
 	padding: 120px 0;
 }
@@ -805,7 +830,7 @@ screen and (min-resolution: 2dppx) {
 	margin-bottom: 72px;
 	color: #2e2f42;
 }
-------------------------------------*/
+
 /*------FOOTER---------*/
 /*-----------------------------------------------------------
 .footer {
