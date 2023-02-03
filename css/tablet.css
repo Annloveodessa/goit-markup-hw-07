@@ -229,12 +229,21 @@
 
 
 /*--------------TEAM--------------*/
-@media screen and (min-width:768px) {
+/* @media screen and (min-width:768px) {
     .team-list {
        display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       width: 264px;
+       justify-content: center;
+        flex-wrap: wrap;
+            row-gap: 64px;
+            column-gap: 24px;
+            
 
 
-    }}
+    }} */
+
 
 
     
