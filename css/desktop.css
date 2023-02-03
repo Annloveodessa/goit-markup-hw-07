@@ -69,6 +69,7 @@
      }
  .our-work {
  display: block;
+ padding-top: 0;
  }
                     
                 }
@@ -87,4 +88,20 @@
                 
                     
           }}
+
+
+          /*-------------FOOTER-------*/
+
+                   @media screen and (min-width:1200px) {
+                        .footer {
+                            padding: 100px 0; 
+                        }
+                       .footlog{
+                           margin-right: 120px;
+
+                       }
+                    .footer-container-subscribe {
+                        margin-left: auto;
+                    }
+                    }
 

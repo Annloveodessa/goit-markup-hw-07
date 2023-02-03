@@ -93,7 +93,7 @@
         margin-right: auto;
     }
 
-    .header-item {}
+  
 
     .logo-main {
         font-family: Raleway;
@@ -150,9 +150,7 @@
     }
     
 
-    .header-email {}
-
-    .header-tel {}
+   
 
     .contact-link {
         font-size: 12px;
@@ -214,7 +212,7 @@
         
     }
     .hero-strategy {
-        /* flex-basis: calc((100% -24px) / 2 ); */
+        
         max-width: 356px;
         
 }
@@ -224,21 +222,7 @@
 }
 
 
-/*--------------TEAM--------------*/
-/* @media screen and (min-width:768px) {
-    .team-list {
-       display: flex;
-       flex-direction: row;
-       flex-wrap: wrap;
-       width: 264px;
-       justify-content: center;
-        flex-wrap: wrap;
-            row-gap: 64px;
-            column-gap: 24px;
-            
 
-
-    }} */
 
 @media screen and (min-width:768px) {
 .team-list {
@@ -264,4 +248,32 @@
         } 
 
     }
+    /*-----------------FOOTER-----------------*/
+
+        @media screen and (min-width:768px) {
+            .footer-container {
+                flex-direction: row;
+                gap: 72px 24px;
+               width: 552px;
+               
+                flex-wrap: wrap;
+            }
+            .footer-form-input {
+                width: 264px;
+            }
+            .footlog {
+                align-items: flex-start;
+
+            }
+            .footer-soc {
+                text-align: left;
+            }
+            .subscribe-text {
+                text-align: left;
+
+            }
+            .footer-form {
+                flex-direction: row;
+            }
     
+        }
