@@ -107,7 +107,7 @@ body {
 	line-height: 1.33;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	margin-right: 77px;
+	
 	display: block;
 }
 
@@ -693,26 +693,17 @@ screen and (min-resolution: 2dppx) {
 
 .team-section {
 	background: #f4f4fd;
-}/*
+}
 .team-list {
 	display: flex;
-	flex-wrap: wrap;
-	gap: 24px;
+	flex-direction:column;
+	gap: 72px;
+	align-items: center;
 	
 	
-} */
+}
 
-/* @media screen and (max-width: 767px) .team-item:not(:last-child) {
-	margin-bottom: 72px;
-		margin-left: auto;
-		margin-right: auto;
-		width: 264px;
-} */
-/* @media screen and (min-width: 428px) {
-	.container {
-		max-width: 428px;}
 
-} */
 .team-text-wrap {
 	padding: 32px 0;
 	text-align: center;
@@ -723,7 +714,7 @@ screen and (min-resolution: 2dppx) {
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 	border-radius: 0px 0px 4px 4px;
 	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-	margin-bottom: 72px;
+	
 	
 }
 
@@ -795,30 +786,33 @@ screen and (min-resolution: 2dppx) {
 
 /*---------CUSTOMERS-----------*/
 
+.customers-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 72px 16px;
+	
+}
+.customers-items {
+
+width: 190px;
+height: 88px;
+}
+
 .customers-link {
 	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	
-	height: 88px;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
 	border: 1px solid currentColor;
 	border-radius: 4px;
 	color: #8e8f99;
 	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-	gap: 16px;
+	
 }
 
-/* .customers-items{
-	display: flex;
-	
-		flex-wrap: wrap;
-		flex-direction: column;
 
-} */
-/* @media screen and (max-width: 767px) {
-.customers-items {
-	width: 190px;
-}}
 
 
 .section-customers {
@@ -833,10 +827,7 @@ screen and (min-resolution: 2dppx) {
 	color: #404bbf;
 }
 
-.customers-list {
-	display: flex;
-	justify-content: space-between;
-}
+
 .section-name {
 	font-size: 36px;
 	line-height: 40px;
@@ -844,13 +835,24 @@ screen and (min-resolution: 2dppx) {
 	letter-spacing: 0.02em;
 	margin-bottom: 72px;
 	color: #2e2f42;
-} */
+}
 
 /*------FOOTER---------*/
-/*-----------------------------------------------------------
+
+.footer-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 72px;
+
+
+
+}
+
 .footer {
 	background: #2e2f42;
-	padding: 100px 0;
+	padding: 96px 0;
 }
 
 .footer-logo {
@@ -858,12 +860,10 @@ screen and (min-resolution: 2dppx) {
 	font-weight: 800;
 	font-size: 18px;
 	line-height: 1.16;
-
-	
-	display: flex;
-	align-items: center;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
 
 
 	color: #4d5ae5;
@@ -873,9 +873,6 @@ screen and (min-resolution: 2dppx) {
 .logo-footer {
 	font-size: 18px;
 	line-height: 1.16;
-
-	display: flex;
-	align-items: center;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 
@@ -914,19 +911,17 @@ screen and (min-resolution: 2dppx) {
 
 	color: #ffffff;
 	margin-bottom: 16px;
+	text-align: center;
 }
 
 .footer-soc-list {
 	display: flex;
 	gap: 16px;
 }
-.footer-socmedia {
-	margin-left: 120px;
-}
 
-.footer .container {
-	display: flex;
-}
+
+
+
 .footlog {
 	max-width: 264px;
 }
@@ -966,19 +961,23 @@ screen and (min-resolution: 2dppx) {
 	border: 1px solid rgba(255, 255, 255, 0.3);
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 	border-radius: 4px;
-	width: 264px;
+	width: 100%;
 	height: 40px;
 	padding-left: 16px;
 	color: #e7e9fc;
 	font-size: 14px;
+	
 }
 	
 
 	
 .footer-form {
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	gap: 16px;
+	width: 100%;
 	
 }
 .subscribe-text {
@@ -989,13 +988,16 @@ screen and (min-resolution: 2dppx) {
 	font-size: 16px;
 	line-height: 24px;
 	letter-spacing: 0.02em;
+	text-align: center;
 }
 .footer-icon {
 	
 	margin-left: 16px;
+
 	
 }
--------------------------------------------------------------------*/
+
+
 
 
 
@@ -1229,9 +1231,8 @@ screen and (min-resolution: 2dppx) {
 	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	
 }
-.footer-container-subscribe {
-	margin-left: 80px;
-}
+
+
 
 .modal-form-input:focus {
 	outline: none;

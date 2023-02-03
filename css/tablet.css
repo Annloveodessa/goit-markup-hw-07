@@ -4,10 +4,6 @@
 
     }
 
-}@media screen and (min-width:768px) {
-.section {
-    padding-top: 120px;
-    padding-bottom: 120px;}
 }
 
 
@@ -244,6 +240,28 @@
 
     }} */
 
+@media screen and (min-width:768px) {
+.team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px 24px;
+    
 
+}
+}
 
+/*-----------------CUSTOMERS--------*/
+
+@media screen and (min-width:768px) {
+.customers-list {
+    gap: 72px 24px;
+}
+    .customers-items {
+    
+            width: 168px;
+        
+        } 
+
+    }
     
